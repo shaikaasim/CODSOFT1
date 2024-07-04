@@ -1,0 +1,180 @@
+
+
+
+.info{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    background-color: #212529;
+}
+
+
+img{
+    height: 100px;
+    width: 100px;
+    
+}
+body{
+    background-color: #212529;
+    height: 100vh;
+}
+
+header {
+    margin-top: 0;
+    padding-bottom: none;
+    border-bottom:none;
+    border-color: #091f36;
+    background-color: #212529;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }  
+  .info ul li a{
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #fff;
+  }
+.info ul li:hover  a{
+    color:aqua;
+}
+
+.main p{
+    font-size: 30px;
+        font-family : "Poppins", sans-serif;
+        font-weight : 600;
+        font-style : normal;
+}  
+h3{
+     font-size: 40px;
+     font-family: "Lemon", serif;
+     font-weight: 400;
+     font-style: normal;
+} 
+
+.main {
+  color: black;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:#212529 ;
+}
+
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+section#about {
+    background-color: #f4f4f4;
+}
+
+section#projects {
+    background-color: #e2e2e2;
+}
+
+section#contact {
+    background-color: #d4d4d4;
+}
+
+.project {
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 0.5rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 300px;
+    max-width: 90%;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+    margin-top: auto;}
+    .copyright{
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+       font-style: normal;
+          }
+#about{
+     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+     
+}          
+#about img{
+    height: auto;
+    width:400px;
+}
+.container img{
+    
+    height: auto;
+    width: 700px;
+}
+#projects button:hover {
+     color:red ;
+}
+    
